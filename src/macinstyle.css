@@ -23,7 +23,7 @@ github account: https: //github.com/mr-winson
 }
 
 /* buttons */
-button {
+.btn {
     border-radius: 3px;
     border: none;
 }
@@ -70,7 +70,10 @@ button {
 }
 
 .modal button {
-    flex-basis: 40%;
+    flex-basis: fill;
+    overflow-wrap: normal;
+    margin-bottom: 3px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -121,6 +124,7 @@ button {
 .modal-footer {
     margin-bottom: 10px;
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 15px;
 }
 
