@@ -6,4 +6,6 @@ mrwinson@pm.me
 github repo: https: //github.com/mr-winson/macinstyle
 github account: https: //github.com/mr-winson
 
+Please see license here: https: //github.com/mr-winson/macinstyle/blob/master/LICENSE
+
 */
