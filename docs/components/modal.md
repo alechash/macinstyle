@@ -3,7 +3,7 @@ The Macinstyle modal is built to look like macOS Big Sur popups. The JavaScript 
 
 ## Comparison
 | macOS | Macinstyle |
-|---|---|
+| --- | --- |
 | <img width="auto" src="../images/macos-modal.png"> | <img width="auto" src="../images/macinstyle-modal.png"> |
 
 ## Examples
