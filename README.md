@@ -1,6 +1,7 @@
 # macinstyle
 Macinstyle is a front-end framework to look like macOS Big Sur. A new version is released with a new version of macOS.<br>
 # Documentation
+Coming soon, not written.
 All documentation is available in Markdown [here](/docs). Or website [here](https://mr-winson.github.io/macinstyle/docs).
 # Usage
 To use `macinstyle` you need to make sure your app has access to the CSS/JS files. There are currently two ways to do this.

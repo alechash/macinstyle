@@ -25,6 +25,45 @@ github account: https: //github.com/mr-winson
     display: none;
 }
 
+/* containers */
+.container,
+.container-sm,
+.container-md,
+.container-lg {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 575px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 765px) {
+
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 990px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 960px;
+    }
+}
+
 /* buttons */
 .btn {
     border-radius: 3px;
