@@ -14,7 +14,7 @@ Import the files and scripts using a CDN:
   `<script src='Coming Soon'></script>`
   
 ### Download Source
-Head over to [/builds](/builds) and download the `macos-*.*.*.zip` (replace stars with the version you want to use) file and extract it. It has all the CSS/JS you need.
+Head over to [/builds](/builds) and download the `macos-*.*.*.zip` (replace stars with the version you want to use) file and extract it. It has all the CSS/JS you need. Or you can go to [releases](/releases).
 
 # Credits
 Check <a href="/CREDITS.md">CREDITS</a> for all credits.
