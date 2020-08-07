@@ -14,7 +14,11 @@ Please see license here: https: //github.com/mr-winson/macinstyle/blob/master/LI
 :root {
     --primary-color: rgb(77, 116, 243);
     --secondary-color: rgb(229, 229, 229);
+    --third-color: rgb(249, 249, 249);
     --light-color: rgb(246, 241, 241);
+    --dark-color: #474646;
+    --very-dark: black;
+    --very-light: white;
 }
 
 * {
@@ -26,6 +30,59 @@ Please see license here: https: //github.com/mr-winson/macinstyle/blob/master/LI
 
 .hidden {
     display: none;
+}
+
+/* cards */
+.card {
+    background-color: var(--third-color);
+    color: var(--dark-color);
+    max-width: 100%;
+    position: relative;
+    border-radius: 25px;
+}
+
+.card-top {
+    display: block;
+    align-items: stretch;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.card-image img {
+    max-width: 100%;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.card-bottom {
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+}
+
+.card-body {
+    font-weight: normal;
+    text-align: center;
+    text-align: center;
+}
+
+.card-footer {
+    padding-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
 }
 
 /* sliders */
