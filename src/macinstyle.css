@@ -13,7 +13,8 @@ Please see license here: https: //github.com/mr-winson/macinstyle/blob/master/LI
 /* general design */
 :root {
     --primary-color: rgb(77, 116, 243);
-    --secondary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(229, 229, 229);
+    --light-color: rgb(246, 241, 241);
 }
 
 * {
@@ -25,6 +26,50 @@ Please see license here: https: //github.com/mr-winson/macinstyle/blob/master/LI
 
 .hidden {
     display: none;
+}
+
+/* sliders */
+.slider {
+    height: 8px;
+    border-radius: 5px;
+    background: var(--secondary-color);
+    outline: none;
+}
+
+.slider::-ms-fill-lower {
+    background-color: var(--primary-color);
+}
+
+.slider::-ms-fill-upper {
+    background-color: var(--secondary-color);
+}
+
+.slider::-moz-range-progress {
+    background-color: var(--primary-color);
+}
+
+.slider::-moz-range-track {
+    background-color: var(--secondary-color);
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0.5px var(--secondary-color) solid;
+    background: var(--light-color);
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0.5px var(--secondary-color) solid;
+    background: var(--light-color);
+    cursor: pointer;
 }
 
 /* containers */
@@ -44,6 +89,14 @@ Please see license here: https: //github.com/mr-winson/macinstyle/blob/master/LI
     .container,
     .container-sm {
         max-width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .container,
+    .container-sm {
+        min-width: auto;
     }
 }
 
