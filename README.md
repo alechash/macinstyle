@@ -6,13 +6,13 @@ Coming soon, not written.
 All documentation is available in Markdown [here](https://github.com/mr-winson/macinstyle/tree/docs/docs). Or website [here](https://mr-winson.github.io/macinstyle).
 # Usage
 To use `macinstyle` you need to make sure your app has access to the CSS/JS files. There are currently two ways to do this.
-### CDN (Soon)
-The CDN will be coming soon and will default to macOS Big Sur (macOS 11)<br>
+### CDN
+This CDN defaults to the latest version of Macinstyle. It is discouraged to do this so we recommend downloading and hosting the files yourself.<br>
 Import the files and scripts using a CDN:
 #### CSS:
-  `<link rel='stylesheet' href='Coming Soon'>`<br>
+  `<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mr-winson/macinstyle/src/macinstyle.css'>`<br>
 #### JS:
-  `<script src='Coming Soon'></script>`
+  `<script src='https://cdn.jsdelivr.net/gh/mr-winson/macinstyle/src/macinstyle.js'></script>`
   
 ### Download Source
 Head over to [/builds](/builds) and download the `macos-*.*.*.zip` (replace stars with the version you want to use) file and extract it. It has all the CSS/JS you need. Or you can go to [releases](/releases).
