@@ -1,10 +1,16 @@
+---
+layout: default
+title: Modal
+parent: Components
+---
 # Modal
 The Macinstyle modal is built to look like macOS Big Sur popups. The JavaScript to toggle the modals between visible and not visible is not included by default but a working example can be seen in the first example.
 
 ## Comparison
+
 | macOS | Macinstyle |
-| --- | --- |
-| <img width="auto" src="../images/macos-modal.png"> | <img width="auto" src="../images/macinstyle-modal.png"> |
+|:---|:---|
+| <img width="auto" src="/macinstyle/assets/images/macos-modal.png"> | <img width="auto" src="/macinstyle/assets/images/macinstyle-modal.png"> |
 
 ## Examples
 Although we don't provide the JS to toggle the opening and closing of modals, there is an example below that includes the JavaScript. There is no need to include jQuery or any other JS library.
